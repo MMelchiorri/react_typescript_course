@@ -3,6 +3,7 @@ import './App.css';
 import Greet from './component/Greet';
 import Person from './component/Person';
 import PersonList from './component/PersonList';
+import Status from './component/Status';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <PersonList
         list_of_person={['marco melchiorri', 'daniele izzi', 'davide giungato']}
       />
+      <Status status="loading" />
     </div>
   );
 }
